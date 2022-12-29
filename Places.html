@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trip Advisor</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="font/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="StyleSheet2.css" rel="stylesheet" />
+    <link href="StyleSheet3.css" rel="stylesheet" />
+    <link href="StyleSheet4.css" rel="stylesheet" />
+    <link href="StyleSheet5.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="Home.html" class="site-brand">
+                Trip<span>Advisor</span>
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="Home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Places.html" class="nav-link">Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ContactUs.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="flex">
+        <div class="vid">
+
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="videos/production%20ID%204340209.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div class="container">
+            <div class="header-title">
+                <h1><span id="words"> Leave Your Footprints</span></h1>
+                <p><span id="word">“Life is either a daring adventure or nothing at all” ~ Helen Keller</span></p>
+            </div>
+        </div>
+    </header>
+    <div class="featured-row">
+
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-header card-image">
+                    <img src="images/featured-rome-italy.jpg" />
+                </div>
+                <div class="card-header">Roma, Italy</div>
+                <div class="card-body">
+                    Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome, and a special comune
+                </div>
+                <div class="card-footer">
+                    <button class="btn" onclick="window.open('http://www.google.com');after(this);">Details</button>
+
+                </div>
+            </div>
+            <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="images/featured-north-bondi-australia.jpg" />
+                </div>
+                <div class="card-header">North bondi, Australia</div>
+                <div class="card-body">
+                    North Bondi RSL is located at the northern end of the iconic Bondi Beach, just a stone's throw from the surf. It's perfect for relaxing with friends
+                </div>
+                <div class="card-footer">
+                    <button class="btn" onclick="window.open('http://www.google.com');after(this);">Details</button>
+
+                </div>
+            </div>
+            <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="images/featured-khwaeng-wat-arun-thailand.jpg" />
+                </div>
+                <div class="card-header">Khwaeng, Thailand</div>
+                <div class="card-body">
+                    Khwaeng Si Kan is a locality in Thailand. Khwaeng Si Kan is situated west of Don Mueang, and north of Lak Si. Khwaeng Si Kan from Mapcarta
+                </div>
+                <div class="card-footer">
+                    <button class="btn" onclick="window.open('http://www.google.com');after(this);">Details</button>
+
+                </div>
+            </div>
+            <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img src="images/featured-berlin-germany.jpg" />
+                </div>
+                <div class="card-header">Berlin, Germany</div>
+                <div class="card-body">
+                    Berlin is the capital and largest city of Germany by both area and population. Its 3.7 million inhabitants make it the European Union's most populous city,
+                </div>
+                <div class="card-footer">
+                    <button class="btn" onclick="window.open('http://www.google.com'); after(this);">Details</button>
+
+                </div>
+            </div>
+            <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img id="myImage" src="images/featured-reo-de-janeiro-brazil.jpg" />
+                </div>
+                <div class="card-header">Reo de janeiro, Brazil</div>
+                <div class="card-body">
+
+                    Rio de Janeiro serves as the capital of the state of the same name, Brazil's third-most populous state. Part of the city has been designated as a World Heritage
+                </div>
+                <div class="card-footer">
+                    <button class="btn" onclick="window.open('http://www.google.com'); after(this);">Details</button>
+
+                </div>
+            </div>
+            <div class="card card-shadow">
+                <div class="card-header card-image">
+                    <img id="myImage" src="images/featured-fuvahmulah-maldives.jpg" />
+                </div>
+                <div class="card-header">Fuvahmulah, Maldives</div>
+                <div class="card-body">
+                    The Maldives is a nation of islands in the Indian Ocean, that spans across the equator. The country is comprised of 1192 islands that stretch along a length of
+                </div>
+                <div class="card-footer">
+                    <button class="btn" onclick="window.open('http://www.google.com'); after();">Details</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Trip<span>Boss</span>
+                </a>
+                <p class="text"> &copy; copy rights reserved , owais abuhammad</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href="#">Jordan</a></li>
+                    <li><a href="#">Saudi Arabia</a></li>
+                    <li><a href="#">Emirates</a></li>
+                    <li><a href="#">Egypt</a></li>
+                    <li><a href="#">Spain</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="JavaScript.js"></script>
+    <script>
+        function after() {
+            document.getElementById('myImage')
+                .src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-lT6TcSB0vQ1r4MdN9NUcMtLT2jfKsnyzrnlAkCv-okumI80jMY9n-mNvEsGm4YF2Yk&usqp=CAU";
+        }
+    </script>
+</body>
+</html>

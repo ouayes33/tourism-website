@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trip Advisor</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---->
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css">
+    <!-- normalize css -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="StyleSheet4.css" rel="stylesheet" />
+    <!-- custom css -->
+
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="StyleSheet2.css" rel="stylesheet" />
+    <link href="StyleSheet3.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="Home.html" class="site-brand">
+                Trip<span>Advisor</span>
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="Home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Places.html" class="nav-link">Places</a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a href="ContactUs.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar  -->
+    <!-- header -->
+    <header class="flex">
+        <div class="vid">
+
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="videos/pexels-taryn-elliott-5363146.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div class="container">
+            <div class="header-title">
+                <h1><span id="words"> Leave Your Footprints</span></h1>
+                <p><span id="word">“Life is either a daring adventure or nothing at all” ~ Helen Keller</span></p>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about some places before your travel</span>
+                <h2 class="lg-title">featured places</h2>
+            </div>
+
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-reo-de-janeiro-brazil.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Reo De Janeiro, Brazil
+                        </span>
+                        <div>
+                            <p class="text">Rio de Janeiro serves as the capital of the state of the same name, Brazil's third-most populous state. Part of the city has been designated as a World Heritage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-north-bondi-australia.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            North Bondi, Australia
+                        </span>
+                        <div>
+                            <p class="text">North Bondi RSL is located at the northern end of the iconic Bondi Beach, just a stone's throw from the surf. It's perfect for relaxing with friends</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-berlin-germany.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Berlin, Germany
+                        </span>
+                        <div>
+                            <p class="text"> Berlin is the capital and largest city of Germany by both area and population. Its 3.7 million inhabitants make it the European Union's most populous city,</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- end of featured section -->
+    <!-- services section -->
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-hotel"></i>
+                    </span>
+                    <h3>Luxurious Hotel</h3>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Trave Guide</h3>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Price</h3>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of services section -->
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">what our clients say about us</span>
+                <h2 class="lg-title">clients feedback</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">Hello , im Radwan and i love booking using your website  Love you</p>
+                    <div class="test-item-info">
+                        <img src="images/Hamzeh.png" alt="testimonial">
+                        <div>
+                            <h3>Radwan </h3>
+                            <p class="text">Trip to Brazil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">Hello , im Owais and i love booking using your website  Love you</p>
+                    <div class="test-item-info">
+                        <img src="images/owais.png" alt="testimonial">
+                        <div>
+                            <h3>Owais</h3>
+                            <p class="text">Trip to Maldives</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">Hello , im Sahjan and i love booking using your website  Love you</p>
+                    <div class="test-item-info">
+                        <img src="images/index.png" alt="testimonial" />
+                        <div>
+                            <h3>Sahjan Al-tamimi</h3>
+                            <p class="text">Trip to Thailand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Trip<span>Boss</span>
+                </a>
+                <p class="text"> &copy; copy rights reserved , owais abuhammad</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href="#">Jordan</a></li>
+                    <li><a href="#">Saudi Arabia</a></li>
+                    <li><a href="#">Emirates</a></li>
+                    <li><a href="#">Egypt</a></li>
+                    <li><a href="#">Spain</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="JavaScript.js"></script>
+
+</body>
+</html>
